@@ -1,0 +1,1060 @@
+*{/*style for all homepage elements*/
+    margin: 5px 10px;
+    background: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+.location p{/*style for store location text*/
+    float: left;
+    color: rgba(0,0,0,0.55);
+}
+
+.location span{/*style for store location icon*/
+    float: left;
+    margin-right: 0;
+    font-size: 20px;
+    color: rgba(0,0,0,0.55);
+}
+
+.lang_currency select{/*style for language select and currency select*/
+    border: none;
+    float: right;
+    margin-bottom: 20px;
+}
+
+.lang_currency select:focus{/*style on language and currency select focus*/
+    outline: none;
+}
+
+.middle-header::after{/*clearfix hack*/
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.middle-header{/*style for all elements in the middle section of the header*/
+    clear: both;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    max-width: 100%;
+}
+
+.middle-header div{
+    max-width: 33.33%;
+    margin-top: 30px;
+}
+
+.middle-header .logo{/*style for Organica logo*/
+    float: left;
+}
+
+.middle-header .logo>span{/*style for Organica logo*/
+    margin-top: 0;
+    margin-right: 0;
+    font-size: 30px;
+    float: left;
+}
+
+.middle-header .logo>p{/*style for Organica text*/
+    float: left;
+    font-size: 27px;
+    font-weight: bold;
+    margin-left: 0;
+    vertical-align: middle;
+}
+
+.middle-header .search-bar{/*style for search bar*/
+    float: left;
+    margin-left: 25%;
+}
+
+.middle-header .search-bar > input{/*style for search input*/
+    margin-top: 0;
+    margin-right: 0;
+    border-top: 1px solid rgba(0,0,0,0.15);
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+    border-left: 1px solid rgba(0,0,0,0.15);
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    height: 35px;
+}
+
+.middle-header .search-bar > input:focus{/*style on search input focus*/
+    outline: none;
+}
+
+.middle-header button{/*style for search button*/
+    margin-top: 0;
+    margin-left: -4%;
+    height: 35px;
+    border: 1px solid #00B207;
+    border-radius: 0 4px 4px 0;
+    background-color: #00B207;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+}
+
+.middle-header button:hover{/*style on button hover*/
+    background-color: #2C742F;
+}
+
+.middle-header .contact{/*style for customer service contact*/
+    float: left;
+    margin-left: 25%;
+}
+
+.middle-header .contact>span{/*style for customer service contact*/
+    float: left;
+    margin-top: 0;
+    margin-right: 5px;
+    font-size: 30px;
+}
+
+.middle-header .contact>p{/*style for customer service and phone number text*/
+    float: left;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.bottom-header::after{/*clearfix hack*/
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.bottom-header{/*style for bottom-header*/
+    clear: both;
+    border: 1px solid black;
+    background-color: #1A1A1A;
+    max-width: 100%;
+    padding: 0.5%;
+}
+
+.bottom-header div{/*style for all div elements so they can float next to each other*/
+    float: left;
+}
+
+.bottom-header .navigation-bar{/*style for navigation-bar*/
+    background-color: #1A1A1A;
+}
+
+.bottom-header .navigation-bar *{/*style for all elements in navigation-bar*/
+    max-width: 12%;
+}
+
+.bottom-header .navigation-bar select{/*style for all select elements in navigation-bar*/
+    border: none;
+    font-size: inherit;
+    background-color: #1A1A1A;
+    color: rgba(255,255,255,0.6);
+}
+
+.bottom-header .navigation-bar select:hover{/*style on select hover*/
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.bottom-header .navigation-bar select:focus{/*style on select focus*/
+    outline: none;
+}
+
+.bottom-header .navigation-bar select option{/*style for select options*/
+    color: #1A1A1A;
+}
+
+.bottom-header .navigation-bar a{/*style for all hyperlinks in navigation-bar*/
+    text-decoration: none;
+    font-size: inherit;
+    background-color: #1A1A1A;
+    color: inherit;
+    color: rgba(255,255,255,0.6);
+}
+
+.bottom-header .navigation-bar a:hover{/*style on hyperlink hover*/
+    color: #FFFFFF;
+}
+
+.bottom-header .navigation-icons{/*style for all elements in navigation-icons*/
+    float: right;
+    background-color: #1A1A1A;
+}
+
+.bottom-header .navigation-icons span{/*style for all span elements in navigation-icons*/
+    background-color: #1A1A1A;
+    font-size: large;
+    color: rgba(255,255,255,0.6);
+}
+
+.bottom-header .navigation-icons span:hover{/*style on navigation-icons span focus*/
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.categories_banner::after{/*clearfix hack*/
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.categories_banner{/*style for categories banner*/
+    max-width: 100%;
+}
+.categories_banner .main_banner{/*style for the main bannr div*/
+    float: left;
+    width: 60%;
+    margin-left: 4%;
+    margin-right: 0;
+    padding: 0%;
+    position: relative;
+}
+
+.categories_banner .main_banner img{/*style for main banner image*/
+    width: 95%;
+    height: 55vh;
+    padding: 0;
+    object-fit: cover;
+}
+
+.categories_banner .main_banner h2:nth-child(2){/*style for the first h2 element on the main banner*/
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    letter-spacing: 1.5px;
+    font-size: xx-large;
+    color: #FFFFFF;
+    background-color: rgba(0,0,0,0)
+}
+
+.categories_banner .main_banner h2:nth-child(3){/*style for the second h2 element on the main banner*/
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    letter-spacing: 1.5px;
+    font-size: xx-large;
+    color: #FFFFFF;
+    background-color: rgba(0,0,0,0)
+}
+
+.categories_banner .main_banner h5{/*style for the h5 element on the main banner*/
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(0,0,0,0);
+    width: 12%;
+    padding-left: 1%;
+    border-left:2px solid #00B207;
+}
+
+.categories_banner .main_banner button{/*style for the button element on the main banner*/
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    width: 15%;
+    height: 10%;
+    color: #FFFFFF;
+    background-color: #00B207;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.categories_banner .main_banner button:hover{/*style on button hover*/
+    background-color: #2C742F;
+    font-size: medium;
+}
+
+.categories_banner .sub_banners{/*style for the sub banners div*/
+    float: left;
+    padding: 0;
+    width: 30%;
+    margin-left: 0;
+    position: relative;
+}
+
+.categories_banner .sub_banners .sub_banner_1 h4{/*style for h4 element on the first sub banner*/
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    font-size: small;
+    background-color: rgba(0,0,0,0);
+}
+
+.categories_banner .sub_banners .sub_banner_1 h1{/*style for h1 element on the first sub banner*/
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    background-color: rgba(0,0,0,0);
+}
+
+.categories_banner .sub_banners .sub_banner_1 h5{/*style for h5 element on the first sub banner*/
+    position: absolute;
+    top: 18%;
+    left: 5%;
+    color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0);
+}
+
+.categories_banner .sub_banners .sub_banner_1 button{/*style for button element on the first sub banner*/
+    position: absolute;
+    top: 27%;
+    left: 5%;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    color: #00B207;
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+}
+
+.categories_banner .sub_banners img{/*style for the sub banners image*/
+    display: block;
+    object-fit: cover;
+    margin-left: 0;
+    width: 100%;
+    height: 27.2vh;
+}
+
+.categories_banner .sub_banners .sub_banner_2 h5{/*style for h5 element on the second sub banner*/
+    position: absolute;
+    top: 53%;
+    left: 40%;
+    color: #FFFFFF;
+    background-color: rgba(0,0,0,0);
+}
+
+.categories_banner .sub_banners .sub_banner_2 h2:nth-child(3){/*style for first h1 element on the second sub banner*/
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    color: #FFFFFF;
+    background-color: rgba(0,0,0,0);
+}
+
+.categories_banner .sub_banners .sub_banner_2 h2:nth-child(4){/*style for second h1 element on the second sub banner*/
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    color: #FFFFFF;
+    background-color: rgba(0,0,0,0);
+}
+
+.categories_banner .sub_banners .sub_banner_2 button{/*style for button element on the second sub banner*/
+    position: absolute;
+    top: 85%;
+    left: 37%;
+    font-size: large;
+    font-weight: bold;
+    color: #00B207;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    cursor: pointer;
+}
+
+.feature::after{/*clearfix hack*/
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.feature{/*style feature element*/
+    width: 100%;
+}
+
+.feature span{/*style for all span elements in feature*/
+    cursor: default;
+    background-color: rgba(0,0,0,0);
+}
+
+.feature h5{/*style for all h5 elements in feature*/
+    cursor: default;
+}
+
+.feature p{/*style for all p elements in feature*/
+    font-size: small;
+    color: rgba(0,0,0,0.5);
+    cursor: default;
+}
+
+.feature > div > div{/*style for all grandchild div elements of feature*/
+/*selects child div elements of feature and
+  further selects their child div(i.e grandchild div)
+  elements*/
+
+    float: left;
+}
+
+.feature > div:hover{/*style on hover over child div elements of feature*/
+    border-bottom:2px solid #00B207;
+}
+
+.feature > div:hover > div:nth-child(1){/*style for the 1st div child element on hover over child div elements of feature*/
+    background-color: #00B207;
+}
+
+.feature > div:hover > div:nth-child(1) span{/*style for the span element on hover over child div elements of feature*/
+    color: #FFFFFF;
+}
+
+.feature .shipping_feature{/*style for shipping feature element*/
+    float: left;
+    width: 23%;
+    margin-left: 2%;
+}
+
+.feature .shipping_feature div:nth-child(1){/*style for 1st div element in shipping feature*/
+    margin-top: 3.5%;
+    margin-left: 5%;
+    border-radius: 50% 50%;
+    padding: 1% 0;
+    margin-left: 8%;
+    margin-right: 0;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.feature .support_feature{/*style for support feature element*/
+    float: left;
+    width: 22%;
+}
+
+.feature .support_feature div:nth-child(1){/*style for 1st div element in shipping feature*/
+    margin-top: 3.5%;
+    margin-left: 5%;
+    border-radius: 50% 50%;
+    padding: 1% 0;
+    margin-left: 10%;
+    margin-right: 0;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.feature .payment_feature{/*style for payment feature element*/
+    float: left;
+    width: 24%;
+}
+
+.feature .payment_feature div:nth-child(1){/*style for 1st div element in payment feature*/
+    margin-top: 3.5%;
+    margin-left: 5%;
+    border-radius: 50% 50%;
+    padding: 1% 0;
+    margin-left: 10%;
+    margin-right: 0;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.feature .guarentee_feature{/*style for guarentee feature element*/
+    float: left;
+    width: 23%;
+}
+
+.feature .guarentee_feature div:nth-child(1){/*style for 1st div element in guarentee feature*/
+    margin-top: 3.5%;
+    margin-left: 5%;
+    border-radius: 50% 50%;
+    padding: 1% 0;
+    margin-left: 5%;
+    margin-right: 0;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.categories::after{/*clearfix hack*/
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.categories{/*style for categories*/
+    min-width: 100%;
+    margin-top: 3%;
+}
+
+.categories > p{/*style for child p elements of categories*/
+    text-align: center;
+    font-size: x-small;
+    font-weight: bold;
+    color: #00B207;
+}
+
+.categories > h2{/*style for child h2 elements of categories*/
+    text-align: center;
+}
+
+.categories .categories_1 div{/*style for all div elements in categories_1*/
+    float: left;
+    max-width: 16.7%;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.categories .categories_1 div:hover{/*style on div element hover*/
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+    color: #00B207;
+}
+
+.categories .categories_1 img{/*style for all img elements in categories_1*/
+    max-width: 70%;
+    margin-left: 15%;
+}
+
+.categories .categories_1 p{/*style for all p elements in categories_1*/
+    text-align: center;
+    font-size: small;
+    font-weight: bold;   
+}
+
+.categories .categories_2 div{/*style for all div elements in categories_2*/
+    float: left;
+    max-width: 16.7%;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.categories .categories_2 div:hover{/*style on div element hover*/
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+    color: #00B207;
+}
+
+.categories .categories_2 img{/*style for all img elements in categories_2*/
+    max-width: 70%;
+    margin-left: 15%;
+}
+
+.categories .categories_2 p{/*style for all p elements in categories_2*/
+    text-align: center;
+    font-size: small;
+    font-weight: bold;   
+}
+
+.team::after{/*clearfix hack*/
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.team{/*style for team element*/
+    min-width: 100%;
+    margin-top: 3%;
+    /*border: 1px solid black;*/
+}
+
+.team > p{/*style for child p elements of team*/
+    text-align: center;
+    font-size: x-small;
+    font-weight: bold;
+    color: #00B207;
+}
+
+.team > h2{/*style for child h2 elements of team*/
+    text-align: center;
+}
+
+.team > div{/*style for div child element in team*/
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.team > div{/*style for all child div elements of team*/
+    float: left;
+    position: relative;
+    width: 24%;
+    margin-right: 0;
+}
+
+.team > div div:nth-child(2){/*style for all first div elements in all div child elements of team*/
+    position: absolute;
+    top: 40%;
+    left: 13%;
+    border: none;
+    background-color: rgba(0,0,0,0);
+    visibility: hidden;
+    transition: 0.5s ease;
+}
+
+.team > div div:nth-child(2) span{/*style for all span elements in the first div elements in all div child elements of team*/
+    float: left;
+    padding: 1.5% 0;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: 50% 50%;
+    background-color: rgba(0,0,0,0);
+    /*transition: 0.05s ease-out;*/
+}
+
+.team > div div:nth-child(2) span i{/*style for all i elements in the first div elements in all div child elements of team*/
+    background-color: rgba(0,0,0,0);
+    color: #FFFFFF;
+}
+
+.team > div img{/*style for all img elements of div elements which are children of team*/
+    width: 95%;
+    opacity: 1;
+    transition: 0.5s ease;
+}   
+
+.team > div p{/*style for all p elements of div elements which are children of team*/
+    font-size: small;
+}
+
+.team > div:hover{/*style on child div element in team hover*/
+    box-shadow:0 4px 5px rgba(0,0,0,0.05),0 5px 5px rgba(0,0,0,0.05);
+}
+
+.team > div:hover h4{/*style for h4 element in team on child div hover*/
+    color: #00B207;
+}
+
+.team > div:hover div:nth-child(2){/*style on second div element in all div child elements in team hover*/
+    visibility: visible;
+}
+
+.team > div:hover img{/*style for img elements in all div child elements in team on hover*/
+    filter: brightness(70%);
+}
+
+.team > div div:nth-child(2) span:hover{/*style on span element in all div child elements in team hover*/
+    background-color: #00B207;
+}
+
+.reviews::after{/*clearfix hack*/
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.reviews{/*style for testimonial element*/
+    min-width: 100%;
+    margin-top: 3%;
+    padding: 4%;
+    background-color: #f2f2f2;
+}
+
+.reviews > p{/*style for child p elements of testimonial*/
+    text-align: center;
+    font-size: x-small;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0);
+    color: #00B207;
+}
+
+.reviews > h2{/*style for child h2 elements of testimonial*/
+    text-align: center;
+    background-color: rgba(0,0,0,0);
+}
+
+.reviews .reviews_cards{/*style for testimonial cards element in testimonial*/
+    margin-top: 2%;
+    background-color: rgba(0,0,0,0);
+}
+
+.reviews .reviews_cards > div{/*style for child div elements of testimonial cards*/
+    display: inline-block;
+    margin-left: 1.2%;
+    width: 31%;
+    border: 1px solid rgba(0,0,0,0);
+    box-shadow: 0 4px 5px rgba(0,0,0,0.05),0 5px 5px rgba(0,0,0,0.05);;
+}
+
+.reviews .reviews_cards > div > div{/*style for all child div elements of testimonial cards child div elements*/
+    float: left;
+}
+
+.reviews .reviews_cards > div > div:nth-child(4){/*style for 4th child div elements of testimonial cards child div elements*/
+    margin-top: 3%;
+    margin-left: -5%;
+}
+
+.reviews .reviews_cards > div > div:nth-child(5){/*style for 5th child div elements of testimonial cards child div elements*/
+    margin-top: 2%;
+    margin-left: 7%;
+}
+
+.reviews .reviews_cards > div > div:nth-child(5) p{/*style for p elements in 5th div child elements of testimonial cards*/
+    float: left;
+    margin-left: 0;
+    font-size: x-large;
+    color: rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+
+.reviews .reviews_cards > div > div:nth-child(5) p:hover{/*style on hover for p elements in 5th div child elements of testimonial cards*/
+    color: darkorange;
+}
+
+.partner_companies_logo::after{/*clearfix hack*/
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.partner_companies_logo{/*style for partner companies logo element*/
+    min-width: 100%;
+    margin-top: 3%;
+    padding: 2%;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.partner_companies_logo > div{/*style for all child div elements in partner companies logo*/
+    float: left;
+    width: 15%;
+    border-right: 1px solid rgba(0,0,0,0.1);
+}
+
+.partner_companies_logo .g-series_logo{
+    border-right: none;
+}
+
+.partner_companies_logo .steps_logo img{
+    margin-left: 20%;
+}
+
+.partner_companies_logo .mango_logo img{
+    margin-left: 30%;
+}
+
+.partner_companies_logo .FOOD_logo img{
+    margin-left: 25%;
+}
+
+.partner_companies_logo .food_logo img{
+    margin-left: 30%;
+}
+
+.partner_companies_logo .bookoff_logo img{
+    margin-left: 15%;
+}
+
+.partner_companies_logo .g-series_logo img{
+    margin-left: 25%;
+}
+
+.newsletter::after{/*clearfix hack*/
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.newsletter{/*style for footer element*/
+    min-width: 100%;
+    margin-top: 3%;
+    padding: 2%;
+    background-color: #1A1A1A;
+}
+
+.newsletter > div{/*style for all child div elements of newsletter*/
+    float: left;
+}
+
+.newsletter .heading{/*style for heading element in newsletter*/
+    width: 30%;
+    background-color: rgba(0,0,0,0);
+}
+
+.newsletter .heading > div{/*style for all child div elements of heading*/
+    float: left;
+    background-color: rgba(0,0,0,0);
+}
+
+.newsletter .heading > div:nth-child(1){/*style for 1st child div element of heading*/
+    width: 15%;
+    margin-top: 2.5%;
+    margin-right: -2%;
+}
+
+
+.newsletter .heading > div:nth-child(2){/*style for 2nd child div element of heading*/
+    width: 75%;
+}
+
+.newsletter .heading > div i{/*style for all i elements in child div elements of heading*/
+    margin-left: 40%;
+    font-size: 200%;
+    color: #00B207;
+    background-color: rgba(0,0,0,0);
+}
+
+.newsletter .heading > div p{/*style for all p elements in child div elements of heading*/
+    margin-left: 1%;
+    background-color: rgba(0,0,0,0);
+}
+
+.newsletter .heading > div:nth-child(2) p:nth-child(1){/*style for 1st p element in 2nd child div element of heading*/
+    font-size: larger;
+    color: #FFFFFF;
+}
+
+.newsletter .heading > div:nth-child(2) p:nth-child(2){/*style for 1st p element in 2nd child div element of heading*/
+    font-size: small;
+    color: rgba(255,255,255,0.5);
+}
+
+.newsletter .subscribe{/*style for subscribe element in footer*/
+    width: 40%;
+    margin-left: 3%;
+    background-color: rgba(0,0,0,0);
+}
+
+.newsletter .subscribe input{/*style for input element in subscribe*/
+    width: 70%;
+    margin-left: 5%;
+    padding: 3%;
+    font-size: medium;
+    color: #FFFFFF;
+    background-color:rgba(255,255,255,0.2);
+    border-right: none;
+    border: 1px solid rgba(0,0,0,0);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.newsletter .subscribe input::placeholder{/*style for placeholder of input element in subscribe*/
+    color: rgba(255,255,255,0.5);
+}
+
+.newsletter .subscribe input:focus{/*style on focus for input element in susbcribe*/
+    outline: none;
+}
+
+.newsletter .subscribe button{/*style for button element in hover*/
+    margin-left: -10%;
+    padding: 3% 5%;
+    font-size: medium;
+    color: #FFFFFF;
+    background-color: #00B207;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: 25px;
+}
+
+.newsletter .social_media{/*style for social media element*/
+    float: left;
+    width: 19%;
+    margin-left: 3.5%;
+    background-color: rgba(0,0,0,0);
+}
+
+.newsletter .social_media i{/*style for all i elements in social media*/
+    float: left;
+    font-size: larger;
+    padding: 4% 4%;
+    color: rgba(255,255,255,0.6);
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: 25px 25px;
+}
+
+.newsletter .social_media i:nth-of-type(odd){/*style for only odd number i elements in social media*/
+    padding: 4% 5%;
+}
+
+.newsletter .social_media i:hover{/*style on hover over i element in social media*/
+    color: #FFFFFF;
+    background-color: #00B207;
+}
+
+.footer::after{/*clearfix hack*/
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer{/*style for footer element*/
+    min-width: 100%;
+    margin-top: -0.75%;
+    padding: 3%;
+    background-color: #f2f2f2;
+}
+
+.footer > div{/*style for all child div elements of footer*/
+    float: left;
+    background-color: rgba(0,0,0,0);
+}
+
+.footer > div > li > a:hover{/*style on hover over all a elements in footer*/
+    color: #00B207;
+}
+
+.footer .company_info{/*style for company info element*/
+    width: 30.5%;
+}
+
+.footer .company_info *{/*style for elements in company info*/
+    background-color: rgba(0,0,0,0);
+}
+
+.footer .company_info .logo > div{/*style for child div elements of logo*/
+    float: left;
+}
+
+.footer .company_info .logo > div:nth-child(1){/*style for 1st child div element of logo*/
+    width: 15%;
+}
+
+.footer .company_info .logo > div:nth-child(2){/*style for 2nd child div element of logo*/
+    width: 35%;
+    margin-top: 2.5%;
+    margin-left: -2.5%;
+}
+
+.footer .company_info .logo > div:nth-child(1) > img{/*style for img element in 1st div child element of logo*/
+    margin-left: 30%;
+}
+
+.footer .company_info .logo > div:nth-child(2) > p{/*style for p element in 2nd div child element of logo*/
+    margin-left: 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.footer .company_info .info{/*clearfix hack*/
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer .company_info .info > p{/*style for child p element in info*/
+    line-height: 135%;
+    color: rgba(0,0,0,0.6);
+}
+
+.footer .company_info .contact > *{/*style for all elements of contact*/
+    float: left;
+}
+
+.footer .company_info .contact > p{/*style for all child p elements of contact*/
+    margin-top: 2.5%;
+    font-size: large;
+    color: rgba(0,0,0,0.6);
+}
+
+.footer .company_info .contact > div > p{/*style for all p child elements of div chid elements of contact*/
+    font-weight: bold;
+}
+
+.footer .company_info .contact > div:hover{/*style on hover for div child elements of contact*/
+    border-bottom: 2px solid #00B207;
+}
+
+.footer .my_account *{/*style for elements in my account*/
+    background-color: rgba(0,0,0,0);
+}
+
+.footer .my_account > p{/*style for all child p elements of my account*/
+    margin-left: 8%;
+    font-size: 112%;
+    font-weight: 550;
+}
+
+.footer .my_account > li{/*style for all child li elements of my account*/
+    margin-top: 13%;
+    list-style-type: none;
+}
+
+.footer .my_account > li > a{/*style for all child a elements of child li elements in my account*/
+    margin-left: 0;
+    color: rgba(0,0,0,0.6);
+    text-decoration: none;
+}
+
+.footer .help *{/*style for all elements in help*/
+    background-color: rgba(0,0,0,0);
+}
+
+.footer .help > p{/*style for all child p elements of help*/
+    margin-left: 6%;
+    font-size: 112%;
+    font-weight: 550;
+}
+
+.footer .help > li{/*style for all child li elements of help*/
+    margin-top: 10%;
+    list-style-type: none;
+}
+
+.footer .help > li> a{/*style for all child a elements of child li elements in help*/
+    margin-left: 0;
+    color: rgba(0,0,0,0.6);
+    text-decoration: none;
+}
+
+.footer .proxy *{/*style for all elements in proxy*/
+    background-color: rgba(0,0,0,0);
+}
+
+.footer .proxy > p{/*style for all child p elements of proxy*/
+    margin-left: 8%;
+    font-size: 112%;
+    font-weight: 550;
+}
+
+.footer .proxy > li{/*style for all child li elements of proxy*/
+    margin-top: 14.5%;
+    list-style-type: none;
+}
+
+.footer .proxy > li> a{/*style for all child a elements of child li elements in proxy*/
+    margin-left: 0;
+    color: rgba(0,0,0,0.6);
+    text-decoration: none;
+}
+
+.footer .download_app > p{/*style for all child p elements of download app*/
+    font-weight: bold;
+    margin-left: 0;
+    background-color: rgba(0,0,0,0);
+}
+
+.footer .download_app > div{/*style for all child div elements of download app*/
+    display: inline-block;
+    margin-left: 0;
+}
+
+.footer .download_app > div > *{/*style for all child elements of child div elements in download app*/
+    display: inline-block;
+}
+
+.footer .download_app > div > i{/*style for i elements in child div elements of download app*/
+    font-size: xx-large;
+}
+
+.footer .download_app > div > div{/*style for child div elements of child div elements in download app*/
+    margin-left: -6%;
+}
+
+.footer .download_app > div > div > p:nth-child(1){
+    font-size: small;
+}
+
+.footer .download_app > div > div > p:nth-child(2){
+    font-size: large;
+    font-weight: bold;
+}
+
+.copywrite::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.copywrite{/*style for copywrite element*/
+    min-width: 100%;
+    margin-top: -1%;
+}
+
+.copywrite > p{
+    float: left;
+    margin-top: 1.6%;
+    margin-left: 0;
+    color: rgba(0,0,0,0.5);
+}
+
+.copywrite .payment_options{
+    float: right;
+}
+
+.copywrite .payment_options > img{
+    border-radius: 5px 5px;
+}
+
+.copywrite .payment_options > img:not(:last-child){
+    margin-right: -2.8%;
+}
+
+.copywrite .payment_options > img:first-child{
+    margin-left: 8%;
+}
